@@ -54,7 +54,6 @@ The script writes one row per review, making it easy to load into Pandas, Excel,
 
 | Column                          | Description                                      |
 | ------------------------------- | ------------------------------------------------ |
-| `app_id`                        | Steam App ID                                     |
 | `review`                        | The full review text                             |
 | `sentiment`                     | `1` = positive review, `0` = negative            |
 | `purchased`                     | `1` if purchased through Steam                   |
@@ -70,10 +69,10 @@ The script writes one row per review, making it easy to load into Pandas, Excel,
 
 ### Example Output (truncated)
 ```csv
-app_id,review,sentiment,purchased,received_for_free,votes_up,votes_funny,date_created,date_updated,author_num_games_owned,author_num_reviews,author_playtime_forever_min,author_playtime_at_review_min
-500810,"Amazing classic RPG. Deep mechanics, lots of bugs, but worth it.",1,1,0,42,3,2023-11-05,2023-11-06,214,15,1220,950
-500810,"Controls are painful, but worldbuilding is fantastic.",1,1,0,18,2,2023-11-07,2023-11-07,96,4,300,220
-500810,"Crashes constantly on modern PCs.",0,1,0,12,0,2023-11-10,2023-11-10,54,2,60,50
+review,sentiment,purchased,received_for_free,votes_up,votes_funny,date_created,date_updated,author_num_games_owned,author_num_reviews,author_playtime_forever_min,author_playtime_at_review_min
+"Amazing classic RPG. Deep mechanics, lots of bugs, but worth it.",1,1,0,42,3,2023-11-05,2023-11-06,214,15,1220,950
+"Controls are painful, but worldbuilding is fantastic.",1,1,0,18,2,2023-11-07,2023-11-07,96,4,300,220
+"Crashes constantly on modern PCs.",0,1,0,12,0,2023-11-10,2023-11-10,54,2,60,50
 ```
 
 ## Licenses
