@@ -3,7 +3,7 @@
 A lightweight Python utility to collect and export **Steam product reviews** (via the official appreviews API) into a clean CSV file — ideal for **NLP, sentiment analysis**, or data exploration.
 
 Developed by [Nicola Mustone](https://nicolamustone.blog)  
-Licensed under **GPLv2**.
+Licensed under **GPLv3**.
 
 ---
 
@@ -76,14 +76,13 @@ app_id,review,sentiment,purchased,received_for_free,votes_up,votes_funny,date_cr
 ```
 
 ## License
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License version 2.
-
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 or later.
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-Full text in LICENSE file.
+Full text in [LICENSE](LICENSE) file.
 
 ## Notes
 * Respect Steam’s API and Terms of Service: store.steampowered.com/subscriber_agreement
