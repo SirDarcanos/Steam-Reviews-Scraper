@@ -75,6 +75,9 @@ review,sentiment,purchased,received_for_free,votes_up,votes_funny,date_created,d
 "Crashes constantly on modern PCs.",0,1,0,12,0,2023-11-10,2023-11-10,54,2,60,50
 ```
 
+### Collected Datasets
+* [Dead by Daylight English reviews](https://www.kaggle.com/datasets/nicolamustone/steam-reviews-english-dead-by-daylight)
+
 ## Licenses
 
 - **Code:** Licensed under [GPLv3](LICENSE).  
